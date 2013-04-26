@@ -1,0 +1,10 @@
+public/assets/
+.rvmrc
+/.sass-cache/
+/.idea/
+/.bundle
+/log/*.log
+/tmp
+**/.DS_Store
+.DS_Store
+database.yml

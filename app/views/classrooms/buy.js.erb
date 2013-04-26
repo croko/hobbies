@@ -1,0 +1,4 @@
+$("#result").hide();
+$('#result').html("<%= j(render(partial: "result", locals: {model_class: Classroom})) %>");
+$("#result").slideDown();
+$('#messages').html("<%= j(render(partial: "layouts/message")) %>");
